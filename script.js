@@ -39,28 +39,24 @@ let buttons = document.querySelectorAll('.button');
 
 addButton.addEventListener('click', function () {
   const result = parseInt(input1.value) + parseInt(input2.value);
-  pResult.innerText = '';
   pResult.innerText = result;
 
 });
 
 subButton.addEventListener('click', function () {
   const result = parseInt(input1.value) - parseInt(input2.value);
-  pResult.innerText = '';
   pResult.innerText = result;
 
 });
 
 divButton.addEventListener('click', function () {
   const result = parseInt(input1.value) / parseInt(input2.value);
-  pResult.innerText = '';
   pResult.innerText = result;
 
 });
 
 multButton.addEventListener('click', function () {
   const result = parseInt(input1.value) * parseInt(input2.value);
-  pResult.innerText = '';
   pResult.innerText = result;
 
 });
